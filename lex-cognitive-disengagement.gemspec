@@ -3,7 +3,7 @@
 require_relative 'lib/legion/extensions/cognitive_disengagement/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'legion-extensions-cognitive-disengagement'
+  spec.name          = 'lex-cognitive-disengagement'
   spec.version       = Legion::Extensions::CognitiveDisengagement::VERSION
   spec.authors       = ['Esity']
   spec.email         = ['matthewdiverson@gmail.com']
@@ -25,4 +25,5 @@ Gem::Specification.new do |spec|
 
   spec.files         = Dir['lib/**/*']
   spec.require_paths = ['lib']
+  spec.add_development_dependency 'legion-gaia'
 end
